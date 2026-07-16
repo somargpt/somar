@@ -5,6 +5,7 @@ export const meta = {
 }
 
 const N = (args && args.n) || 781
+const STARTAT = (args && args.startAt) || 0
 const BATCH = (args && args.batch) || 40
 const DS = (args && args.dataSource) || '987aea7a-fbec-4942-930f-4d67ee091838'
 const PAGES = '/home/user/somar/dashboard/notion_pages.json'
@@ -12,7 +13,7 @@ const PAGES = '/home/user/somar/dashboard/notion_pages.json'
 phase('Inserir')
 
 const ranges = []
-for (let s = 0; s < N; s += BATCH) ranges.push([s, Math.min(s + BATCH, N)])
+for (let s = STARTAT; s < N; s += BATCH) ranges.push([s, Math.min(s + BATCH, N)])
 
 const SCHEMA = {
   type: 'object',
@@ -41,9 +42,13 @@ const results = await parallel(ranges.map(([START, END]) => () =>
    As propriedades ja estao no formato correto (Comentario e o titulo; Tipo/Acionabilidade/
    Documento sao select; date:Data:start e a data; Trecho/Regra/Revisor/Arquivo sao texto).
    NAO altere os valores. NAO adicione a propriedade idx.
-5) Se a chamada falhar por erro transitorio (timeout, rate limit / 429, 5xx), tente novamente
-   ate 3 vezes. Se o lote for grande demais, divida em duas chamadas (metade e metade) e insira ambas.
-6) Confirme quantas paginas foram criadas com sucesso.
+5) Trate erros com cuidado para NAO criar duplicatas:
+   - Se a chamada retornar erro ANTES de criar (timeout imediato, 429 rate limit, 5xx), tente
+     novamente ate 2 vezes (nenhuma pagina foi criada nesse caso).
+   - Se a resposta indicar que ALGUMAS paginas foram criadas e outras nao, NAO reenvie o lote
+     inteiro: reenvie apenas as paginas que faltaram.
+   - Nunca reenvie um lote que ja retornou sucesso.
+6) Confirme quantas paginas foram criadas com sucesso (conte os ids retornados).
 
 Retorne {start:${START}, created:<n criadas>, failedIdx:[idx que falharam], error:"<msg se houve>"}.
 Seja honesto: se nem todas foram criadas, liste os idx que falharam.`,
