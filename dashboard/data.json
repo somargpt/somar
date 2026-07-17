@@ -926,6 +926,155 @@
  },
  {
   "creator": "Renan Peron Fineto",
+  "lastModifiedBy": "Lucas Ramos Da Silva",
+  "created": "2026-07-13T14:01:00Z",
+  "modified": "2026-07-17T16:48:00Z",
+  "saveRevision": 73,
+  "pages": 88,
+  "words": 26869,
+  "editMinutes": 2100,
+  "comments": [
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-14T14:02:00Z",
+    "chars": 269,
+    "words": 42
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-13T09:57:00Z",
+    "chars": 28,
+    "words": 5
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-14T13:03:00Z",
+    "chars": 167,
+    "words": 29
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-13T13:03:00Z",
+    "chars": 196,
+    "words": 28
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-14T13:14:00Z",
+    "chars": 44,
+    "words": 8
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-08T15:52:00Z",
+    "chars": 83,
+    "words": 14
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-08T16:20:00Z",
+    "chars": 65,
+    "words": 8
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-08T16:21:00Z",
+    "chars": 68,
+    "words": 12
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-13T10:38:00Z",
+    "chars": 274,
+    "words": 46
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-14T11:19:00Z",
+    "chars": 105,
+    "words": 18
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-14T11:29:00Z",
+    "chars": 73,
+    "words": 12
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-08T13:54:00Z",
+    "chars": 144,
+    "words": 23
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-14T11:38:00Z",
+    "chars": 112,
+    "words": 19
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-16T09:52:00Z",
+    "chars": 88,
+    "words": 16
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-08T16:50:00Z",
+    "chars": 333,
+    "words": 56
+   },
+   {
+    "author": "Lucas Ramos Da Silva",
+    "initials": "LR",
+    "date": "2026-07-13T10:38:00Z",
+    "chars": 177,
+    "words": 29
+   },
+   {
+    "author": "Leonardo Kim",
+    "initials": "LK",
+    "date": "2026-07-15T13:12:00Z",
+    "chars": 358,
+    "words": 60
+   }
+  ],
+  "resolvedComments": 0,
+  "insertionsByAuthor": {},
+  "deletionsByAuthor": {},
+  "trackedChangeDates": null,
+  "file": "pre_eletronico-00-SEI 11150-2026-96_Gerenciamento de Abastecimento_Minuta de Edital rev lk lrs.docx",
+  "sei": "11150-2026-96",
+  "title": "Gerenciamento de Abastecimento",
+  "revChain": [
+   "lk",
+   "lrs"
+  ],
+  "revChainNorm": [
+   "lk",
+   "lrs"
+  ],
+  "isDup": false,
+  "modality": "pregão eletrônico",
+  "sizeBytes": 419248
+ },
+ {
+  "creator": "Renan Peron Fineto",
   "lastModifiedBy": "Leonardo Kim",
   "created": "2026-07-13T14:01:00Z",
   "modified": "2026-07-16T13:26:00Z",
