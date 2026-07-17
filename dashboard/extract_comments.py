@@ -27,6 +27,7 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
+DOCS = os.path.join(REPO, "editais")
 SCRATCH = os.environ.get("SCRATCH", HERE)
 EXISTING = os.path.join(SCRATCH, "existing_keys.json")
 OUT = os.path.join(HERE, "comments_catalog.json")
@@ -171,7 +172,7 @@ def main():
             existing.add((r, dnorm(data), p))
             existing_day.add((r, dnorm(data)[:10], p))
 
-    files = sorted(f for f in os.listdir(REPO)
+    files = sorted(f for f in os.listdir(DOCS)
                    if f.lower().endswith(".docx") and not f.startswith("~$"))
 
     # unique comment -> melhor registro (com trecho, arquivo mais recente)
@@ -179,7 +180,7 @@ def main():
     for name in files:
         sei, modality = parse_filename_sei(name)
         try:
-            comments, trechos = extract_comments(os.path.join(REPO, name))
+            comments, trechos = extract_comments(os.path.join(DOCS, name))
         except (zipfile.BadZipFile, ET.ParseError, KeyError):
             continue
         cl = chain_len(name)

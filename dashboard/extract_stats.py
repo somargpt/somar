@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extrai metadados das minutas de edital (.docx) do repositório e gera dashboard/data.json.
+"""Extrai metadados das minutas de edital (.docx) da pasta editais/ e gera dashboard/data.json.
 
 Para cada arquivo .docx extrai:
   - Identificação do processo (número SEI) e objeto, a partir do nome do arquivo
@@ -22,6 +22,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DOCS = os.path.join(REPO, "editais")
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.json")
 
 NS = {
@@ -156,12 +157,12 @@ def extract(path):
 
 def main():
     files = sorted(
-        f for f in os.listdir(REPO)
+        f for f in os.listdir(DOCS)
         if f.lower().endswith(".docx") and not f.startswith("~$")
     )
     out = []
     for name in files:
-        path = os.path.join(REPO, name)
+        path = os.path.join(DOCS, name)
         sei, title, chain, dup, modality = parse_filename(name)
         try:
             rec = extract(path)

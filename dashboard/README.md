@@ -14,7 +14,7 @@ sistema. Cada gráfico tem um botão **Tabela** com os dados correspondentes.
 ## Como atualizar após adicionar/alterar minutas
 
 ```bash
-python3 dashboard/extract_stats.py     # lê os .docx e gera dashboard/data.json
+python3 dashboard/extract_stats.py     # lê os .docx de editais/ e gera dashboard/data.json
 python3 dashboard/build_dashboard.py   # agrega e injeta o dataset em index.html
 ```
 
