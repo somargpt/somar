@@ -42,6 +42,7 @@
 | CT-29 | conteudo | Atualize as normas citadas: substitua dispositivos revogados (Decreto Estadual 67.301/2022 → 69.588/2025; IN IBAMA 01/2010 → IN 9/2021), remova normas inaplicáveis (Decreto federal 11.462/2023 em licitação estadual), prefira fundamentar na Lei 14.133/2021 e cite "Resolução TCESP nº 11/2023 e atualizações" | 7 | OC, LRS, LK, CZ | "Citação do Decreto federal nº 11.462/2023 (regulamenta o Sistema de Registro de Preços na esfera fed..." |
 | CT-30 | conteudo | Preveja a divulgação dos resultados também no DOE-TCESP quando o TR o exigir | 1 | CZ | "Considerando a previsão do item 8.6.2 do TR, acho que poderíamos complementar o texto: Os resultados" |
 | CT-31 | conteudo | Mantenha redundâncias intencionais que preservem aderência ao TR; valores repetidos em vários pontos devem ser idênticos em todos eles | 4 | CZ, OC | "Está redundante mas eu deixaria assim mesmo, para evitar alterações no TR" — ancorado em "201.915,00" |
+| CT-32 | conteudo | Verifique a justificativa de agrupamento/indivisibilidade do objeto (art. 40, §2º, Lei 14.133/2021): deve existir e sustentar-se — a base registra impugnação real invocando o princípio do parcelamento com pedido de desmembramento em lotes | 1 | — | expediente de impugnação real (agrupamento × parcelamento), promovido a id formal em 2026-07-20 a partir de registro sem regra normalizada |
 
 ## padronizacao (252 registros)
 
@@ -108,3 +109,22 @@
 | FT-06 | formatacao | Evite títulos de seção isolados no fim da página e itens quebrados entre páginas | 6 | CZ, RPF | "Ficou solto na página." — ancorado em "14. CÓDIGO COMPRAS.GOV.BR, VALOR TOTAL GLOBAL..." |
 | FT-07 | formatacao | Padronize fonte e tamanho (Arial 12) em todo o documento, inclusive tabelas e numeração de itens | 7 | RPF, CZ, OC, LK | "O que acha de padronizar para arial 12 a fonte e o seu tamanho utilizados no TR?" |
 | FT-08 | formatacao | Verifique hiperlinks: corrija links quebrados ou com endereço errado e transforme endereços eletrônicos citados em hiperlink | 4 | LK, OC | "Excluir o hiperlink? Ele não está funcionando" — ancorado em "Decreto estadual nº 69.588, de 2025" |
+
+## Notas de leitura
+
+- **PD-12 (leitura adotada em 2026-07-20)**: o campo de tratamento diferenciado ME/EPP na capa aplica-se apenas a contratações até R$ 4.800.000,00; acima desse limite, o campo deve ser removido por estar fora do modelo institucional vigente. Direção a confirmar com os revisores caso o modelo institucional mude.
+
+## Checagens extra-base com origem documentada (eixo EXQ — edital-exequibilidade)
+
+As checagens abaixo NÃO derivam dos 889 comentários da base: o vício que capturam é uma AUSÊNCIA (necessidade técnica não operacionalizada), que por natureza não aparece em comentário de revisão. A origem é o caso real que anulou um pregão do TCESP e os precedentes correlatos. Registram-se aqui para preservar a fonte de verdade única e permitir auditoria dos fundamentos EXQ-xx do mesmo modo que os CT/PD/DV/PT/FT.
+
+| id | checagem | origem documentada |
+|----|----------|--------------------|
+| EXQ-01 | Vínculo com fabricante/OEM tecnicamente necessário: vedado na habilitação (Súmula 15/TCESP), obrigatório como requisito de execução (declaração na disputa + comprovação prévia à assinatura), com justificativa e exame de impacto | Despacho CPC, SEI 0006960/2025-40 (pregão anulado de ofício; Súmula 473/STF; art. 71, III, Lei 14.133/2021); TCU Acórdão 926/2017 – Plenário; TCESP TC-005308.989.26-8; TCDF 00600-00000043/2026-64 |
+| EXQ-02 | Necessidade declarada no TR sem contrapartida objetiva no edital = LACUNA | idem EXQ-01 |
+| EXQ-03 | Canal de RMA/substituição/garantia do fabricante assegurado contratualmente (correlata a CT-28) | idem EXQ-01 |
+| EXQ-04 | Comprovação objetiva da capacidade de acionar o suporte avançado do fabricante | idem EXQ-01 |
+| EXQ-05 | Mecanismo objetivo de aferição de licenças/subscrições oficiais (correlata a CT-28) | idem EXQ-01 |
+| EXQ-06 | Certificações indispensáveis como requisito de execução, não filtro habilitatório (correlata a CT-12) | idem EXQ-01 |
+| EXQ-07 | Alinhamento fase × natureza da exigência (habilitação × pré-assinatura × execução) | idem EXQ-01 |
+| EXQ-08 | Justificativa expressa e exame de impacto na competitividade para requisito de execução criado/realocado | TCU Acórdão 926/2017 – Plenário |
