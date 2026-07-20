@@ -21,7 +21,7 @@ Você não vê a conversa do usuário nem herda CLAUDE.md de projeto. O prompt d
 
 ## Exclusões explícitas
 
-Não invada os eixos dos outros cinco agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-coerencia** (numeração, remissões internas, anexos citados vs. existentes, prazos entre si), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato). Erros de português, formatação e padronização de nomenclatura não são seus. Só reporte o que tiver dimensão de legalidade.
+Não invada os eixos dos outros seis agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-coerencia** (numeração, remissões internas, anexos citados vs. existentes, prazos entre si), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato), **edital-exequibilidade** (alocação processual e exequibilidade de requisitos técnicos de execução — vínculo/credenciamento com fabricante, RMA, certificações: você audita a conformidade objetiva da norma citada; ele audita se a salvaguarda técnica indispensável foi disciplinada na fase certa, com atenção à regra "não pode na habilitação por Súmula 15/TCESP → deve na execução"). Erros de português, formatação e padronização de nomenclatura não são seus. Só reporte o que tiver dimensão de legalidade.
 
 ## Checagens do eixo
 

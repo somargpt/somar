@@ -24,7 +24,7 @@ Método obrigatório: monte o inventário completo (todos os números de item na
 
 ## Exclusões explícitas
 
-Não invada os eixos dos outros cinco agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato — comparação ENTRE documentos não é sua; você audita UM documento por dentro). Português, formatação visual e mérito das cláusulas não são seus.
+Não invada os eixos dos outros seis agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato — comparação ENTRE documentos não é sua; você audita UM documento por dentro), **edital-exequibilidade** (exequibilidade e alocação processual de requisitos técnicos de execução). Português, formatação visual e mérito das cláusulas não são seus.
 
 ## Checagens do eixo
 
