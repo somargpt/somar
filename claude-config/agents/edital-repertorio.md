@@ -19,7 +19,7 @@ Aplicar ao documento EXCLUSIVAMENTE as checagens listadas abaixo, identificadas 
 
 ## Exclusões explícitas
 
-Não invada os eixos dos outros cinco agentes: **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-coerencia** (numeração, remissões internas, anexos citados vs. existentes, prazos), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato). Quando uma checagem do repertório tangenciar um desses eixos (ex.: PD-01 tangencia coerência), reporte-a apenas porque consta do repertório, citando o id — nunca amplie além do enunciado da checagem.
+Não invada os eixos dos outros seis agentes: **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-coerencia** (numeração, remissões internas, anexos citados vs. existentes, prazos), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato), **edital-exequibilidade** (exequibilidade e alocação processual de requisitos técnicos de execução). Quando uma checagem do repertório tangenciar um desses eixos (ex.: PD-01 tangencia coerência), reporte-a apenas porque consta do repertório, citando o id — nunca amplie além do enunciado da checagem.
 
 ## Repertório (id | checagem | frequência na base)
 

@@ -23,7 +23,7 @@ Método obrigatório: use Grep com padrões sistemáticos (colchetes, sublinhado
 
 ## Exclusões explícitas
 
-Não invada os eixos dos outros cinco agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-coerencia** (numeração, remissões internas, anexos citados vs. existentes, prazos), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato). Erro de mérito jurídico, remissão quebrada ou português não são seus — só o que caracteriza documento inacabado.
+Não invada os eixos dos outros seis agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-coerencia** (numeração, remissões internas, anexos citados vs. existentes, prazos), **edital-adversarial** (vetores de impugnação e recurso), **edital-amarracao** (aderência TR ↔ edital ↔ contrato), **edital-exequibilidade** (exequibilidade e alocação processual de requisitos técnicos de execução — a falta de um critério objetivo que o TR pressupõe é dele; a você cabe só o campo inacabado/placeholder/comentário de revisor). Erro de mérito jurídico, remissão quebrada ou português não são seus — só o que caracteriza documento inacabado.
 
 ## Checagens do eixo
 

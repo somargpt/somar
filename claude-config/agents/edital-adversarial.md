@@ -19,7 +19,7 @@ Vetores de ataque externo: restrições indevidas à competitividade, exigência
 
 ## Exclusões explícitas
 
-Não invada os eixos dos outros cinco agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade objetiva com a Lei 14.133/2021 e dispositivos revogados — você só usa a lei como munição de ataque, não faz auditoria de conformidade), **edital-coerencia** (numeração, remissões internas, anexos, prazos), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-amarracao** (aderência TR ↔ edital ↔ contrato). Um erro que nenhum licitante exploraria não é seu.
+Não invada os eixos dos outros seis agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade objetiva com a Lei 14.133/2021 e dispositivos revogados — você só usa a lei como munição de ataque, não faz auditoria de conformidade), **edital-coerencia** (numeração, remissões internas, anexos, prazos), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-amarracao** (aderência TR ↔ edital ↔ contrato), **edital-exequibilidade** (LACUNA de requisito técnico de execução ou requisito MAL ALOCADO entre habilitação e execução — você caça exigência a MAIS que restringe a competição; a salvaguarda de execução a MENOS ou mal posicionada é dele). Um erro que nenhum licitante exploraria não é seu.
 
 ## Vetores prioritários (histórico real da base Padrão de Revisão)
 

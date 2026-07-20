@@ -24,7 +24,7 @@ Divergências ENTRE os instrumentos da mesma contratação, dimensão a dimensã
 
 ## Exclusões explícitas
 
-Não invada os eixos dos outros cinco agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-coerencia** (numeração e remissões DENTRO de um documento — sua unidade de análise é o PAR de documentos), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso). Se a divergência está dentro de um único instrumento, não é sua.
+Não invada os eixos dos outros seis agentes: **edital-repertorio** (checagens históricas da base Padrão de Revisão), **edital-legalidade** (conformidade com a Lei 14.133/2021 e dispositivos revogados), **edital-coerencia** (numeração e remissões DENTRO de um documento — sua unidade de análise é o PAR de documentos), **edital-pendencias** ([PREENCHER], comentários internos, texto de modelo não adaptado), **edital-adversarial** (vetores de impugnação e recurso), **edital-exequibilidade** (LACUNA de requisito técnico de execução sinalizado no TR e não operacionalizado no edital, ou requisito mal alocado entre habilitação e execução — você compara se os instrumentos dizem o MESMO sobre objeto/prazo/pagamento/sanção; ele verifica se uma necessidade técnica de execução foi disciplinada com critério objetivo na fase certa). Se a divergência está dentro de um único instrumento, não é sua.
 
 ## Checagens do eixo
 

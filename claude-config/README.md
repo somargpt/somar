@@ -25,7 +25,8 @@ cp claude-config/repertorio-revisao.md ~/.claude/
 | `agents/edital-pendencias.md` | [PREENCHER], comentários internos visíveis, texto de modelo não adaptado |
 | `agents/edital-adversarial.md` | vetores de impugnação e recurso: o que um licitante atacaria primeiro |
 | `agents/edital-amarracao.md` | aderência TR ↔ edital ↔ minuta de contrato (objeto, prazo, pagamento, sanção) |
-| `commands/revisar-minuta.md` | comando `/revisar-minuta <caminho-absoluto>.docx`: converte 1× com pandoc, dispara os 6 agentes em paralelo, consolida e deduplica |
+| `agents/edital-exequibilidade.md` | exequibilidade e alocação processual de requisitos técnicos de execução: necessidade sinalizada no TR (vínculo com fabricante, RMA, suporte avançado, certificações) que o edital não operacionaliza (LACUNA) ou aloca na fase errada (Súmula 15/TCESP) |
+| `commands/revisar-minuta.md` | comando `/revisar-minuta <caminho-absoluto>.docx`: converte 1× com pandoc, dispara os 7 agentes em paralelo, consolida e deduplica |
 | `repertorio-revisao.md` | repertório completo: id, tipo, checagem, frequência na base, revisores, exemplo literal ancorado |
 
 Todos os agentes são read-only (Read, Grep, Glob), `model: inherit`, exigem caminho
